@@ -1,1 +1,2 @@
 # Sign-up-form
+This is a relatively  easy project. It took me less time than the landing page project, which i had done 2 months ago. While doing this project, I faced some problems about scaling background image and reset broswer default's properties. I got to know more about how to use <label> and <input> and some methods for verification, but I haven't learned about javascript for form verification so i am still need a long way to go.

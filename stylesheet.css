@@ -7,9 +7,7 @@
     font-display: swap;
 }
 /* tag */
-* {
-    border: 1px solid black;
-}
+
 body {
     display: flex;
     height: 100vh;
@@ -22,6 +20,7 @@ button {
     width: 200px;
     height: 40px;
     font-size: 18px;
+    font-weight: bold;
     background-color: #596D48;
     color: white;
     border-radius: 10px;
@@ -29,13 +28,17 @@ button {
 input {
     border-radius: 5px;
     border-color: #E5E7EB;
+    height: 20px;
+    width: 250px;
 }
+
 input:invalid {
     border: 1px solid red;
 }
 input:focus {
+    outline:none;
     border: 2px solid blue;
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+    box-shadow: 1px 1px 5px gray;
 }
 
 /* class */
@@ -96,7 +99,7 @@ form {
     display: flex;
 }
 .first-form-row {
-    width: 50%;
+    width: 40%;
 }
 .second-form-row {
     width: 50%;
