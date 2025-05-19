@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse-Bold.woff2') format('woff2'),
+        url('Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* tag */
+* {
+    border: 1px solid black;
+}
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+img {
+    height: 125px;  
+}
+button {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+}
+input {
+    border-radius: 5px;
+    border-color: #E5E7EB;
+}
+input:invalid {
+    border: 1px solid red;
+}
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+}
+
+/* class */
+/*background section */
+.background-section {
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+   
+}
+.logo-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 150px;
+    margin-top: 200px;
+    color: white;
+    font-size: 125px;
+    font-family: 'Norse';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section + div {
+    color:white;
+    margin-top: 550px;
+    text-align: center;
+   
+}
+
+
+/* form section */
+.form-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.form-section-1{
+    height: 35%;
+    padding: 80px 30px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #F9FAFB;
+    font-size: 18px;
+}
+.form-section-1 h2 {
+    width: 900px;
+}
+
+.form-section-2{
+    height: 30%;
+    padding: 30px;
+    
+}
+form {
+    display: flex;
+}
+.first-form-row {
+    width: 50%;
+}
+.second-form-row {
+    width: 50%;
+}
+.form-section-3{
+    height: 35%;
+    padding: 30px 0 0 40px;
+    background-color: #F9FAFB;
+}
+.form-section-3 > p {
+    font-size: 18px;
+}
+.form-section-3 span {
+    color: #596D48;
+}
+
+
